@@ -4,14 +4,14 @@ public class Persona {
 	private int id_persona;
     private String nombre_persona;
     private String apellido_persona;
-    private int telefono;
-    private int dni;
+    private String telefono;
+    private String dni;
     private int edad;
 	public Persona() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Persona(int id_persona, String nombre_persona, String apellido_persona, int telefono, int dni, int edad) {
+	public Persona(int id_persona, String nombre_persona, String apellido_persona, String telefono, String dni, int edad) {
 		super();
 		this.id_persona = id_persona;
 		this.nombre_persona = nombre_persona;
@@ -38,16 +38,16 @@ public class Persona {
 	public void setApellido_persona(String apellido_persona) {
 		this.apellido_persona = apellido_persona;
 	}
-	public int getTelefono() {
+	public String getTelefono() {
 		return telefono;
 	}
-	public void setTelefono(int telefono) {
+	public void setTelefono(String telefono) {
 		this.telefono = telefono;
 	}
-	public int getDni() {
+	public String getDni() {
 		return dni;
 	}
-	public void setDni(int dni) {
+	public void setDni(String dni) {
 		this.dni = dni;
 	}
 	public int getEdad() {

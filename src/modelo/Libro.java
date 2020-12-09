@@ -4,7 +4,7 @@ public class Libro {
 	private int id_libro;
     private String nombre_libro;
     private String editorial;
-    private int codigo;
+    private String codigo;
     private String estado;
     private int id_genero_literario;
     private int id_autor;
@@ -12,7 +12,7 @@ public class Libro {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Libro(int id_libro, String nombre_libro, String editorial, int codigo, String estado,
+	public Libro(int id_libro, String nombre_libro, String editorial, String  codigo, String estado,
 			int id_genero_literario, int id_autor) {
 		super();
 		this.id_libro = id_libro;
@@ -41,10 +41,10 @@ public class Libro {
 	public void setEditorial(String editorial) {
 		this.editorial = editorial;
 	}
-	public int getCodigo() {
+	public String getCodigo() {
 		return codigo;
 	}
-	public void setCodigo(int codigo) {
+	public void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
 	public String getEstado() {
